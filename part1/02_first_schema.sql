@@ -1,0 +1,7 @@
+
+CREATE SCHEMA IF NOT EXISTS first_schema;
+
+CREATE EXTENSION IF NOT EXISTS pgcrypto;
+
+
+
