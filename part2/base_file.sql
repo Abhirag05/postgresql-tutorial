@@ -19,3 +19,5 @@ INSERT INTO products(name,category,price,stock,is_active,sku,description)VALUES(
 ('Laptop','Electronics',999.99,50,TRUE,'LP-003','A high-performance laptop suitable for gaming and work.'),
 ('Headphones','Electronics',199.99,200,TRUE,'HP-004','Noise-cancelling over-ear headphones with Bluetooth connectivity.'),
 ('Coffee Mug','Kitchenware',12.99,300,TRUE,'CM-005','A ceramic coffee mug with a capacity of 350ml.');
+
+--inserting without specifyin colum names:INSERT INTO products VALUES('eca4479c-c43a-43f6-931e-38c5a8c6e321','Notebook2','Stationery',5.19,110,TRUE,'NB-002','A 200-page notebook for school and office use.');
